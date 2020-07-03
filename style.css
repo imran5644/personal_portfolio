@@ -1,0 +1,55 @@
+body{
+    margin:0px;
+    padding: 0px;
+}
+#welcome-section{
+    margin-top: -20px;
+    height: 100vh;
+    background: green;
+    text-align: center;
+}
+
+#welcome-section h1{
+padding-top: 10%;
+}
+
+nav{
+    position: fixed;
+    margin-top: -40px;
+    height:100px;
+    width: 100vw;
+    background: maroon;
+    position: top;
+}
+
+.nav-top {
+list-style-type: none;
+margin-left: 800px;
+font-size: 35px;
+}
+
+ul li{
+    padding-top: 10px;
+    display: inline-block;
+    margin-left: 6px;
+}
+
+
+@media (max-height: 600px){
+    .container--filler-image{
+      display: none;
+    } 
+  }
+  
+  @media (max-width: 800px){
+    section{
+      padding: 20px;
+    } 
+}
+@media(max-width:320px){  
+    nav{
+      font-size:1em;
+      height: auto;
+      max-height: 200px;
+    }
+}
